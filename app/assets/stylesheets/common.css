@@ -1,0 +1,27 @@
+h1 {
+  background-color: aqua;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+footer {
+  background-color: #fbc25b;
+  font-size: 20px;
+}
+
+table th {
+  background-color: #fbc25b;
+  padding: 10px 20px;
+}
+
+table td {
+  background-color: #f9ecd5;
+  padding: 10px 20px;
+}
+
+.notice {
+  background-color: #ccf;
+  padding: 5px;
+}
