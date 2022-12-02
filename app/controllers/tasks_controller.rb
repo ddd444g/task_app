@@ -11,7 +11,7 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.new(params.require(:task).permit(:title,:start,:stop,:memo))
+    @task = Task.new(params.require(:task).permit(:title,:start,:stop,:memo,))
     if @task.save
       flash[:notice] = "タスクを新規登録しました"
       redirect_to :tasks
